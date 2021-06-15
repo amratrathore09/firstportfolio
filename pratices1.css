@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    color: black;
+    height: 70px;
+    text-transform: uppercase;
+}
+
+.navt ul li {
+    font-weight: bold;
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.navt ul li a {
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+    text-transform: uppercase;
+}
+
+a {
+    color: black;
+    font-size: 30px;
+}
+
+.bg {
+    background-image: url(https://source.unsplash.com/user/erondu/1600x900);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+h1 {
+    text-shadow: 1px 1px 2px rgb(255, 0, 119), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#para {
+    margin: 0 80px;
+}
+
+#h {
+    color: rgb(255, 0, 0);
+    margin-top: 20%;
+}
+
+.about {
+    text-align: center;
+}
+
+.body {
+    /* background-color: cyan; */
+    height: 120vh;
+}
+
+p {
+    font-weight: 800;
+    margin: 50px;
+    font-size: xx-large;
+}
+
+.foot {
+    color: white;
+    text-align: center;
+    background-color: rgb(41, 41, 41);
+    height: 40vh;
+}
